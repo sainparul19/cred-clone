@@ -1,0 +1,84 @@
+
+.ab {
+  background-color: rgb(2,119,87);
+  color: rgb(248,248,248);
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  padding: 240px 200px 250px;
+  background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/trust-bg.jpg");
+  background-size: cover;
+  background-position: right bottom;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.ab_1 {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.ab_2 {
+  font-size: 60px;
+  font-family: gilroy-bold;
+  font-weight: bold;
+  letter-spacing: -1.15px;
+  line-height: 64px;
+  white-space: pre-line;
+  opacity: 0.9;
+}
+
+.ab_3 {
+  width: 50%;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+}
+
+.ab_4 {
+  font-size: 19px;
+  font-family: gilroy-semibold;
+  font-weight: bold;
+  letter-spacing: 0px;
+  line-height: 28px;
+  margin-top: 20px;
+  max-width: 550px;
+}
+
+@media screen and (max-width: 767px){
+  .ab {
+    flex-direction: column;
+    padding: 70px 40px;
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/trust-bg-mobile.jpg);
+  }
+  .ab_1 {
+      width: 100%;
+      padding-bottom: 80px;
+  
+  }
+  .ab_2 {
+    font-size: 55px;
+    font-family: gilroy-bold;
+    letter-spacing: -1.65px;
+    line-height: 47.5px;
+  }
+  .ab_3{
+    margin-left: 0px;
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 480px){
+  .ab_4 {
+    font-size: 15px;
+    font-family: gilroy-medium;
+    line-height: 24px;
+  }
+}

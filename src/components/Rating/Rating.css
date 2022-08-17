@@ -1,0 +1,152 @@
+.rate {
+  display: flex;
+  background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png");
+  background-position: right top;
+  background-size: cover;
+  position: relative;
+  z-index: 20;
+}
+
+.rate_1 {
+  color: rgb(255,255,255);
+  padding: 200px;
+  font-family: gilroy-bold;
+  font-weight: bold;
+  white-space: pre-line;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.rate_2 {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.rate_3 {
+  padding-right: 75px;
+}
+
+.rate_4 {
+  display: flex;
+  -webkit-box-align:center;
+  align-items: center;
+  padding-bottom: 48px;
+}
+
+
+
+.as_1 {
+  font-size: 160px;
+  line-height: 120px;
+  padding-right: 16px;
+  opacity: 0.9;
+  margin-bottom: 50px;
+  
+}
+
+.as_2 {
+  font-size: 60px;
+  line-height: 55px;
+padding-left: 16px;
+color:rgb(236,233,234);
+opacity: 0.9;
+padding-left: 16px;
+padding-top: 140px;
+}
+
+.rate_5 {
+  padding-bottom: 48px;
+}
+
+.img_1 {
+  width: 179px;
+  height: 28px;
+}
+
+.rate_6 {
+  background-color: rgb(255,255,255);
+  color:rgb(0,0,0);
+  font-family: gilroy-bold;
+  font-weight: bold;
+  width: 310px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: 48px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.img_2 {
+  width: 44px;
+}
+
+.rate_6 > p {
+  padding-left: 8px;
+  font-size: 20px;
+  line-height: 18px;
+}
+
+.play {
+padding-left: 75px;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+  .rate {
+    padding: 70px 40px;
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg-mobile.png);
+  }
+  .rate_1 {
+    overflow-y: hidden;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    width: 100%;
+  }
+  .rate_2 {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+  .rate_3 {
+    padding-right: 0px;
+    text-align: center;
+  }
+  .rate_4{
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-bottom: 24px;
+  }
+  .as_1 {
+    font-size: 90px;
+    line-height: 70px;
+  }
+  .as_2 {
+    font-size: 31px;
+    line-height: 32px;
+    text-align: left;
+    margin-top: -20px;
+  }
+  .rate_5 {
+    padding-bottom: 70px;
+    text-align: left;
+  }
+  .img_1 {
+    width: 115px;
+    height: 18px;
+  }
+  .rate_6 {
+    display: none;
+  }
+  .play{
+    padding-left: 0px;
+    text-align: center;
+  }
+  
+}

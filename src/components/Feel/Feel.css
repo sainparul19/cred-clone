@@ -1,0 +1,119 @@
+
+.abc {
+  background-color: rgb(238,47,76);
+  color: rgb(248,248,248);
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 240px 200px 180px;
+}
+
+
+.abc_1 {
+  font-size: 100px;
+  font-family: gilroy-bold;
+  font-weight: bold;
+  letter-spacing: -3.15px;
+  line-height: 96px;
+  white-space: pre-line;
+  opacity: 0.9;
+  
+}
+
+.abc_2 {
+  font-size: 32px;
+  font-family: gilroy-bold;
+  font-weight: bold;
+  letter-spacing: -0.2px;
+  line-height: 38px;
+  white-space: pre-line;
+  max-width: 630px;
+  margin-top: 16px;
+ 
+}
+
+
+
+.abc_3 {
+  font-size: 18px;
+  font-family: gilroy-semibold;
+  font-weight: bold;
+  letter-spacing: 0px;
+  line-height: 28px;
+  white-space: pre-line;
+  max-width: 630px;
+  margin-bottom: 40px;
+
+}
+
+.abc_4 {
+display: inline-flex;
+  white-space: nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  pointer-events: auto;
+  text-align: center;
+  padding: 20px 65px;
+  background-color: rgb(255,255,255);
+  color: rgb(0,0,0);
+  font-size: 24px;
+  font-family: gilroy-bold;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  line-height: 30px;
+  border-radius: 40px;
+  cursor: pointer;
+
+}
+
+
+@media screen and (max-width: 767px) {
+  .abc {
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg-mobile.jpg);
+    padding: 195px 40px 90px;
+    min-height: 1150px;
+    background-position: right center
+  }
+  .abc_3 {
+    font-family: gilroy-regular;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .abc_1 {
+    font-size: 65px;
+    font-family: gilroy-bold;
+    letter-spacing: -1.95px;
+    line-height: 58px;
+  }
+  .abc_2 {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    margin-top: 26px;
+  }
+  .abc_4 {
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    line-height: 18px;
+    padding: 16px 24px;
+    cursor: none;
+  }
+}
+
+
+
+
+
+
+
