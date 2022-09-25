@@ -157,8 +157,7 @@
 
 @media screen and (max-width:480px) {
   .home {
-    
-    padding: 60px 40px 70px;
+    padding: 35px;
     background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg-mobile.png);
   }
   .lg {
@@ -171,12 +170,12 @@
   }
   .home5 {
     margin: 50px 0px 0px -40px;
-    height: 55px;
   }
   .home9 {
     align-items: flex-start;
   }
   .home0 {
+    margin: 0;
     font-size: 55px;
     font-family: gilroy-bold;
     letter-spacing: -1.65px;

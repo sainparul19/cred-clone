@@ -74,9 +74,10 @@ opacity: 0.9;
   @media screen and (max-width: 767px) {
     .upgrade{
       background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/money-matters-bg-mobile.jpg);
-    padding: 195px 40px 90px;
+    padding: 30px;
+    width: auto;
     background-position: right center;
-    min-height: 1350px;
+    /* min-height: 1350px; */
     -webkit-box-pack: end;
     justify-content: flex-end;
     }

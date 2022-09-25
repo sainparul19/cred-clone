@@ -54,7 +54,8 @@
 @media screen and (max-width: 767px){
   .ab {
     flex-direction: column;
-    padding: 70px 40px;
+    padding: 30px;
+    width: auto;
     background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/trust-bg-mobile.jpg);
   }
   .ab_1 {

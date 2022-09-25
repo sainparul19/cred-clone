@@ -71,8 +71,9 @@ opacity: 0.9;
   .secure {
     
     background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/security-bg-mobile.jpg);
-    padding: 195px 40px 90px;
-    min-height: 1150px;
+    padding: 30px;
+    width: auto;
+    /* min-height: 1150px; */
     background-position: right center;
   }
   .secure_5{

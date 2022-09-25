@@ -39,7 +39,8 @@ white-space: pre-line;
 @media screen and (max-width: 480px)
  {
   .reward {
-    padding: 60px 40px;
+    padding: 40px;
+    width: auto;
   }
   .reward_1 {
     align-items: flex-start;
